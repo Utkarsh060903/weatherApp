@@ -26,6 +26,6 @@ I approached the assignment by breaking it down into key functional components: 
 
 ## 🖼️ Preview
 
-![App Screenshot](assets/weather_app.png)
+![App Screenshot](src/assets/weather_app.png)
 
 ---
