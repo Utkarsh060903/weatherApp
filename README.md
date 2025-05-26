@@ -26,6 +26,6 @@ I approached the assignment by breaking it down into key functional components: 
 
 ## 🖼️ Preview
 
-![App Screenshot](https://ibb.co/bjFzSstG) <!-- Add or replace with your actual image -->
+![App Screenshot](assets/weather_app.png)
 
 ---
