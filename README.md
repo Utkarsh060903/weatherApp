@@ -1,7 +1,5 @@
 # 🌦️ Weather App
 
-A sleek, modern React-based Weather App that delivers real-time weather data and a 5-day forecast using the OpenWeatherMap API. Designed with performance, usability, and clean UI in mind — featuring auto-refreshing data, unit toggling (°C/°F), and persistent city search using React Context API.
-
 ---
 
 ## 🧠 Approach
@@ -28,6 +26,6 @@ I approached the assignment by breaking it down into key functional components: 
 
 ## 🖼️ Preview
 
-![App Screenshot](screenshot.png) <!-- Add or replace with your actual image -->
+![App Screenshot](https://ibb.co/bjFzSstG) <!-- Add or replace with your actual image -->
 
 ---
