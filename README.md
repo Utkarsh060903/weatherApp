@@ -1,12 +1,33 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern React-based Weather App that delivers real-time weather data and a 5-day forecast using the OpenWeatherMap API. Designed with performance, usability, and clean UI in mind — featuring auto-refreshing data, unit toggling (°C/°F), and persistent city search using React Context API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Approach
 
-## Expanding the ESLint configuration
+I approached the assignment by breaking it down into key functional components: fetching current weather and forecast data, displaying it cleanly using reusable components, and enhancing user experience with features like unit switching, auto-refresh, and state persistence. I used React Context API and localStorage to remember the last searched city and reloaded data every 30 seconds using `setInterval`. Tailwind CSS was used to ensure a responsive and modern UI, and Axios handled API communication efficiently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Features
+
+- **🌍 City Search**: Search any city's weather across the globe.
+- **📊 5-Day Forecast**: Displays one forecast per day at 12:00 PM.
+- **🌡️ Unit Toggle**: Switch between Celsius (°C) and Fahrenheit (°F).
+- **🔁 Auto Refresh**: Automatically updates weather data every 30 seconds.
+- **💾 Persistent City**: Saves the last searched city using React Context API and `localStorage`.
+- **💻 Responsive Design**: Optimized layout using Tailwind CSS.
+- **🚀 Tech Stack**:
+  - React.js (with Hooks & Context API)
+  - Axios
+  - Tailwind CSS
+  - OpenWeatherMap API
+
+---
+
+## 🖼️ Preview
+
+![App Screenshot](screenshot.png) <!-- Add or replace with your actual image -->
+
+---
